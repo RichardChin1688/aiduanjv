@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>功能介绍 - AI 短剧</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <h1 class="text-2xl font-bold gradient-bg text-transparent bg-clip-text">
+                            <i class="fas fa-film mr-2"></i>AI 短剧
+                        </h1>
+                    </a>
+                    <div class="hidden md:block ml-10">
+                        <div class="flex items-baseline space-x-4">
+                            <a href="index.html#home" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">首页</a>
+                            <a href="#" class="text-purple-600 px-3 py-2 rounded-md text-sm font-medium">功能</a>
+                            <a href="templates.html" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">剧本模板</a>
+                            <a href="pricing.html" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">价格</a>
+                            <a href="cases.html" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">案例</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="login.html" class="text-gray-700 hover:text-purple-600 text-sm font-medium">登录</a>
+                    <a href="register.html" class="gradient-bg text-white px-4 py-2 rounded-full text-sm font-medium hover:opacity-90 transition">免费注册</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="gradient-bg pt-32 pb-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">强大功能，一站式创作</h1>
+            <p class="text-xl text-purple-100 max-w-3xl mx-auto">
+                从灵感到作品，AI 帮你完成每一步，10 分钟创作一部短剧
+            </p>
+        </div>
+    </section>
+
+    <!-- Core Features -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Feature 1 -->
+            <div class="flex flex-col md:flex-row items-center mb-20">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-12">
+                    <div class="w-20 h-20 gradient-bg rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-pen-fancy text-white text-4xl"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">AI 剧本创作</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        输入主题/关键词，AI 自动生成完整剧本，含场景、台词、动作。
+                        3 秒吸引力开头，30 秒一个反转，结尾留悬念，完美适配短视频节奏。
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">8 大剧本模板，覆盖所有热门题材</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">智能时长控制（1 分钟/3 分钟/5 分钟）</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">角色设定自动生成</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">支持自定义修改和迭代</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-white rounded-2xl shadow-xl p-6">
+                        <div class="border border-gray-200 rounded-lg p-4 mb-4">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-magic text-purple-600 mr-2"></i>
+                                <span class="font-bold text-gray-900">AI 生成中...</span>
+                            </div>
+                            <div class="text-sm text-gray-600">
+                                <p class="mb-2"><strong>主题：</strong>总裁爱上我</p>
+                                <p class="mb-2"><strong>类型：</strong>甜宠剧</p>
+                                <p><strong>时长：</strong>3 分钟</p>
+                            </div>
+                            <div class="mt-4 h-2 bg-gray-200 rounded-full overflow-hidden">
+                                <div class="h-full gradient-bg w-3/4"></div>
+                            </div>
+                            <p class="text-xs text-gray-500 mt-2">生成进度：75%</p>
+                        </div>
+                        <div class="border border-gray-200 rounded-lg p-4 bg-gray-50">
+                            <p class="text-sm text-gray-700 font-mono">
+                                【场景 1】咖啡厅 - 日 - 内<br/><br/>
+                                女主匆忙奔跑，转角撞到男主，文件散落一地。<br/><br/>
+                                女主："对不起对不起！"<br/>
+                                男主："......"（沉默，伸手帮忙）<br/><br/>
+                                旁白："这是他们第一次相遇..."
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 2 -->
+            <div class="flex flex-col md:flex-row-reverse items-center mb-20">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pl-12">
+                    <div class="w-20 h-20 bg-gradient-to-br from-pink-400 to-red-500 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-user-astronaut text-white text-4xl"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">AI 角色生成</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        根据角色设定，AI 生成角色形象，保持角色一致性。
+                        支持多角度、多表情、多服装，让每个角色都栩栩如生。
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">Stable Diffusion + ControlNet 技术</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">LoRA 模型保证角色一致性</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">生成正面/侧面/表情集</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">支持换脸技术保持角色统一</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="grid grid-cols-3 gap-4">
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                            <div class="aspect-square gradient-bg flex items-center justify-center">
+                                <i class="fas fa-user text-white text-5xl"></i>
+                            </div>
+                            <div class="p-3 text-center">
+                                <p class="text-sm font-bold text-gray-900">正面</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                            <div class="aspect-square bg-gradient-to-br from-pink-400 to-red-500 flex items-center justify-center">
+                                <i class="fas fa-user text-white text-5xl"></i>
+                            </div>
+                            <div class="p-3 text-center">
+                                <p class="text-sm font-bold text-gray-900">侧面</p>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-xl shadow-lg overflow-hidden">
+                            <div class="aspect-square bg-gradient-to-br from-purple-500 to-indigo-600 flex items-center justify-center">
+                                <i class="fas fa-smile text-white text-5xl"></i>
+                            </div>
+                            <div class="p-3 text-center">
+                                <p class="text-sm font-bold text-gray-900">表情集</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 3 -->
+            <div class="flex flex-col md:flex-row items-center mb-20">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-12">
+                    <div class="w-20 h-20 bg-gradient-to-br from-blue-600 to-purple-700 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-storyboard text-white text-4xl"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">AI 分镜生成</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        根据剧本自动生成分镜画面，包含镜头说明、画面参考。
+                        让每个镜头都有专业指导，拍摄更高效。
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">自动分析剧本生成分镜</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">镜头语言指导（远景/中景/近景/特写）</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">画面参考图生成</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">支持手动调整和重绘</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-white rounded-2xl shadow-xl p-6">
+                        <div class="space-y-4">
+                            <div class="flex items-start space-x-4">
+                                <div class="flex-shrink-0 w-12 h-12 bg-gray-200 rounded-lg flex items-center justify-center">
+                                    <span class="text-sm font-bold text-gray-600">镜头 1</span>
+                                </div>
+                                <div class="flex-1">
+                                    <p class="text-sm font-bold text-gray-900">全景 - 咖啡厅相遇</p>
+                                    <p class="text-xs text-gray-600">"cinematic wide shot, coffee shop, girl bumping into CEO"</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="flex-shrink-0 w-12 h-12 bg-gray-200 rounded-lg flex items-center justify-center">
+                                    <span class="text-sm font-bold text-gray-600">镜头 2</span>
+                                </div>
+                                <div class="flex-1">
+                                    <p class="text-sm font-bold text-gray-900">中景 - 反派嘲讽</p>
+                                    <p class="text-xs text-gray-600">"medium shot, antagonist mocking, arrogant expression"</p>
+                                </div>
+                            </div>
+                            <div class="flex items-start space-x-4">
+                                <div class="flex-shrink-0 w-12 h-12 bg-gray-200 rounded-lg flex items-center justify-center">
+                                    <span class="text-sm font-bold text-gray-600">镜头 3</span>
+                                </div>
+                                <div class="flex-1">
+                                    <p class="text-sm font-bold text-gray-900">特写 - 主角眼神变化</p>
+                                    <p class="text-xs text-gray-600">"extreme close-up, protagonist's eyes, determination"</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 4 -->
+            <div class="flex flex-col md:flex-row-reverse items-center mb-20">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pl-12">
+                    <div class="w-20 h-20 bg-gradient-to-br from-green-500 to-teal-600 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-video text-white text-4xl"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">AI 视频生成</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        根据分镜 AI 生成短视频，支持 720P/1080P，竖屏/横屏可选。
+                        口型同步，镜头运动自然，让作品更专业。
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">图像→视频生成（SVD/Gen-2）</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">Wav2Lip 口型同步技术</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">镜头运动控制（推/拉/摇/移）</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">多分辨率输出（720P/1080P）</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-white rounded-2xl shadow-xl p-6">
+                        <div class="aspect-video bg-gradient-to-br from-gray-800 to-gray-900 rounded-lg flex items-center justify-center mb-4">
+                            <div class="text-center">
+                                <i class="fas fa-play-circle text-white text-6xl mb-4"></i>
+                                <p class="text-white font-bold">AI 生成视频预览</p>
+                                <p class="text-gray-400 text-sm mt-2">时长：02:45 | 分辨率：1080P</p>
+                            </div>
+                        </div>
+                        <div class="flex justify-center space-x-4">
+                            <button class="px-4 py-2 border border-purple-600 text-purple-600 rounded-lg hover:bg-purple-50 transition">
+                                <i class="fas fa-download mr-2"></i>下载
+                            </button>
+                            <button class="px-4 py-2 gradient-bg text-white rounded-lg hover:opacity-90 transition">
+                                <i class="fas fa-upload mr-2"></i>发布
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 5 -->
+            <div class="flex flex-col md:flex-row items-center mb-20">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pr-12">
+                    <div class="w-20 h-20 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-music text-white text-4xl"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">AI 配音配乐</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        多音色 TTS 配音，情感控制，背景音乐库，自动混音。
+                        让作品听觉体验更专业，观众更沉浸。
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">多音色可选（男/女/童/老人）</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">情感控制（喜/怒/哀/乐）</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">背景音乐库（按情绪分类）</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">AI 生成原创音乐 + 自动混音</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-white rounded-2xl shadow-xl p-6">
+                        <div class="space-y-4">
+                            <div class="border border-gray-200 rounded-lg p-4">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="font-bold text-gray-900">配音音色</span>
+                                    <span class="text-sm text-purple-600">已选择</span>
+                                </div>
+                                <div class="grid grid-cols-2 gap-2">
+                                    <button class="py-2 border-2 border-purple-600 bg-purple-50 text-purple-600 rounded-lg text-sm font-medium">温柔女声</button>
+                                    <button class="py-2 border border-gray-300 text-gray-700 rounded-lg text-sm hover:bg-gray-50">霸道男声</button>
+                                    <button class="py-2 border border-gray-300 text-gray-700 rounded-lg text-sm hover:bg-gray-50">可爱童声</button>
+                                    <button class="py-2 border border-gray-300 text-gray-700 rounded-lg text-sm hover:bg-gray-50">沉稳老人</button>
+                                </div>
+                            </div>
+                            <div class="border border-gray-200 rounded-lg p-4">
+                                <div class="flex items-center justify-between mb-2">
+                                    <span class="font-bold text-gray-900">背景音乐</span>
+                                </div>
+                                <div class="space-y-2">
+                                    <div class="flex items-center justify-between py-2 border-b border-gray-100">
+                                        <span class="text-sm text-gray-700">🎵 甜蜜浪漫</span>
+                                        <i class="fas fa-play-circle text-purple-600"></i>
+                                    </div>
+                                    <div class="flex items-center justify-between py-2 border-b border-gray-100">
+                                        <span class="text-sm text-gray-700">🎵 紧张悬疑</span>
+                                        <i class="fas fa-play-circle text-purple-600"></i>
+                                    </div>
+                                    <div class="flex items-center justify-between py-2">
+                                        <span class="text-sm text-gray-700">🎵 励志向上</span>
+                                        <i class="fas fa-play-circle text-purple-600"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Feature 6 -->
+            <div class="flex flex-col md:flex-row-reverse items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0 md:pl-12">
+                    <div class="w-20 h-20 bg-gradient-to-br from-indigo-500 to-purple-600 rounded-2xl flex items-center justify-center mb-6">
+                        <i class="fas fa-chart-line text-white text-4xl"></i>
+                    </div>
+                    <h2 class="text-3xl font-bold text-gray-900 mb-4">发布与收益</h2>
+                    <p class="text-lg text-gray-600 mb-6">
+                        一键发布，AI 审核 + 人工复审，数据看板追踪播放、收益。
+                        自动分账，满¥100 可提现，70% 收益归你！
+                    </p>
+                    <ul class="space-y-3">
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">一键发布到平台</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">AI 审核 + 人工复审（24 小时内）</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">实时数据看板（播放/点赞/收益）</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <span class="text-gray-700">70% 收益分成，满¥100 可提现</span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="md:w-1/2">
+                    <div class="bg-white rounded-2xl shadow-xl p-6">
+                        <div class="grid grid-cols-2 gap-4 mb-6">
+                            <div class="bg-gradient-to-br from-purple-50 to-white p-4 rounded-lg border border-purple-200">
+                                <div class="text-sm text-gray-600 mb-1">总播放</div>
+                                <div class="text-2xl font-bold text-purple-600">520.8 万</div>
+                                <div class="text-xs text-green-600 mt-1">↑ 12.5% 较上周</div>
+                            </div>
+                            <div class="bg-gradient-to-br from-orange-50 to-white p-4 rounded-lg border border-orange-200">
+                                <div class="text-sm text-gray-600 mb-1">总收益</div>
+                                <div class="text-2xl font-bold text-orange-600">¥38,520</div>
+                                <div class="text-xs text-green-600 mt-1">↑ 8.3% 较上周</div>
+                            </div>
+                        </div>
+                        <div class="border-t border-gray-200 pt-4">
+                            <div class="flex items-center justify-between mb-2">
+                                <span class="font-bold text-gray-900">可提现金额</span>
+                                <span class="text-2xl font-bold text-green-600">¥12,450</span>
+                            </div>
+                            <button class="w-full gradient-bg text-white py-3 rounded-lg font-medium hover:opacity-90 transition">
+                                <i class="fas fa-wallet mr-2"></i>立即提现
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Workflow -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">创作流程</h2>
+                <p class="text-xl text-gray-600">简单 5 步，10 分钟完成一部短剧</p>
+            </div>
+            <div class="grid md:grid-cols-5 gap-8">
+                <div class="text-center">
+                    <div class="w-16 h-16 gradient-bg rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-white">1</span>
+                    </div>
+                    <h3 class="font-bold text-gray-900 mb-2">选择模板</h3>
+                    <p class="text-sm text-gray-600">从 8 大模板中选择</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 gradient-bg rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-white">2</span>
+                    </div>
+                    <h3 class="font-bold text-gray-900 mb-2">输入主题</h3>
+                    <p class="text-sm text-gray-600">描述你的创意</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 gradient-bg rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-white">3</span>
+                    </div>
+                    <h3 class="font-bold text-gray-900 mb-2">AI 生成</h3>
+                    <p class="text-sm text-gray-600">剧本/角色/分镜</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 gradient-bg rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-white">4</span>
+                    </div>
+                    <h3 class="font-bold text-gray-900 mb-2">调整优化</h3>
+                    <p class="text-sm text-gray-600">微调细节</p>
+                </div>
+                <div class="text-center">
+                    <div class="w-16 h-16 gradient-bg rounded-full flex items-center justify-center mx-auto mb-4">
+                        <span class="text-2xl font-bold text-white">5</span>
+                    </div>
+                    <h3 class="font-bold text-gray-900 mb-2">发布赚钱</h3>
+                    <p class="text-sm text-gray-600">一键发布</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="gradient-bg py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-white mb-6">准备好开始创作了吗？</h2>
+            <p class="text-xl text-purple-100 mb-8">
+                立即注册，免费体验 AI 短剧创作，
+                <br/>
+                前 1000 名注册用户送¥100 创作基金！
+            </p>
+            <a href="register.html" class="inline-block bg-white text-purple-600 px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition shadow-lg">
+                <i class="fas fa-rocket mr-2"></i>免费注册
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-gray-400">&copy; 2026 AI 短剧平台 aiduanju.com 版权所有</p>
+        </div>
+    </footer>
+</body>
+</html>

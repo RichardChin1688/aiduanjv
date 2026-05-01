@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录 - AI 短剧</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <a href="index.html" class="flex items-center">
+                    <h1 class="text-2xl font-bold gradient-bg text-transparent bg-clip-text">
+                        <i class="fas fa-film mr-2"></i>AI 短剧
+                    </h1>
+                </a>
+                <div class="flex items-center space-x-4">
+                    <a href="index.html" class="text-gray-700 hover:text-purple-600 text-sm font-medium">返回首页</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Login Section -->
+    <section class="py-20">
+        <div class="max-w-md mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-2xl shadow-xl p-8">
+                <div class="text-center mb-8">
+                    <h1 class="text-3xl font-bold text-gray-900 mb-2">欢迎回来</h1>
+                    <p class="text-gray-600">登录你的 AI 短剧创作账号</p>
+                </div>
+
+                <form class="space-y-6">
+                    <!-- Email/Phone -->
+                    <div>
+                        <label for="email" class="block text-sm font-medium text-gray-700 mb-2">
+                            邮箱 / 手机号
+                        </label>
+                        <div class="relative">
+                            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                <i class="fas fa-envelope text-gray-400"></i>
+                            </div>
+                            <input type="text" id="email" name="email" required
+                                class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                                placeholder="name@example.com 或 138****8888">
+                        </div>
+                    </div>
+
+                    <!-- Password -->
+                    <div>
+                        <label for="password" class="block text-sm font-medium text-gray-700 mb-2">
+                            密码
+                        </label>
+                        <div class="relative">
+                            <div class="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
+                                <i class="fas fa-lock text-gray-400"></i>
+                            </div>
+                            <input type="password" id="password" name="password" required
+                                class="block w-full pl-10 pr-3 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-purple-500 focus:border-transparent"
+                                placeholder="••••••••">
+                        </div>
+                        <div class="flex justify-end mt-2">
+                            <a href="#" class="text-sm text-purple-600 hover:text-purple-500">忘记密码？</a>
+                        </div>
+                    </div>
+
+                    <!-- Remember Me -->
+                    <div class="flex items-center">
+                        <input type="checkbox" id="remember" name="remember"
+                            class="h-4 w-4 text-purple-600 focus:ring-purple-500 border-gray-300 rounded">
+                        <label for="remember" class="ml-2 block text-sm text-gray-700">
+                            记住我 7 天
+                        </label>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit"
+                        class="w-full gradient-bg text-white py-3 rounded-lg font-medium hover:opacity-90 transition">
+                        <i class="fas fa-sign-in-alt mr-2"></i>登录
+                    </button>
+                </form>
+
+                <!-- Divider -->
+                <div class="relative my-8">
+                    <div class="absolute inset-0 flex items-center">
+                        <div class="w-full border-t border-gray-300"></div>
+                    </div>
+                    <div class="relative flex justify-center text-sm">
+                        <span class="px-4 bg-white text-gray-500">其他登录方式</span>
+                    </div>
+                </div>
+
+                <!-- Social Login -->
+                <div class="grid grid-cols-3 gap-4">
+                    <button class="flex items-center justify-center py-3 border border-gray-300 rounded-lg hover:bg-gray-50 transition">
+                        <i class="fab fa-weixin text-green-600 text-xl"></i>
+                    </button>
+                    <button class="flex items-center justify-center py-3 border border-gray-300 rounded-lg hover:bg-gray-50 transition">
+                        <i class="fab fa-qq text-blue-500 text-xl"></i>
+                    </button>
+                    <button class="flex items-center justify-center py-3 border border-gray-300 rounded-lg hover:bg-gray-50 transition">
+                        <i class="fab fa-weibo text-red-600 text-xl"></i>
+                    </button>
+                </div>
+
+                <!-- Register Link -->
+                <div class="mt-8 text-center">
+                    <p class="text-gray-600">
+                        还没有账号？
+                        <a href="register.html" class="text-purple-600 hover:text-purple-500 font-medium">
+                            免费注册
+                        </a>
+                    </p>
+                </div>
+            </div>
+
+            <!-- Benefits -->
+            <div class="mt-8 grid grid-cols-3 gap-4 text-center">
+                <div>
+                    <div class="text-2xl font-bold text-purple-600">¥0</div>
+                    <div class="text-sm text-gray-600">免费开始</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold text-purple-600">70%</div>
+                    <div class="text-sm text-gray-600">收益分成</div>
+                </div>
+                <div>
+                    <div class="text-2xl font-bold text-purple-600">10 分钟</div>
+                    <div class="text-sm text-gray-600">快速创作</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-8">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-gray-400 text-sm">&copy; 2026 AI 短剧平台 aiduanju.com 版权所有</p>
+        </div>
+    </footer>
+</body>
+</html>

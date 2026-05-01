@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>剧本模板库 - AI 短剧</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <h1 class="text-2xl font-bold gradient-bg text-transparent bg-clip-text">
+                            <i class="fas fa-film mr-2"></i>AI 短剧
+                        </h1>
+                    </a>
+                    <div class="hidden md:block ml-10">
+                        <div class="flex items-baseline space-x-4">
+                            <a href="index.html#home" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">首页</a>
+                            <a href="index.html#features" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">功能</a>
+                            <a href="#" class="text-purple-600 px-3 py-2 rounded-md text-sm font-medium">剧本模板</a>
+                            <a href="index.html#pricing" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">价格</a>
+                            <a href="index.html#cases" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">案例</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="login.html" class="text-gray-700 hover:text-purple-600 text-sm font-medium">登录</a>
+                    <a href="register.html" class="gradient-bg text-white px-4 py-2 rounded-full text-sm font-medium hover:opacity-90 transition">免费注册</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="gradient-bg pt-32 pb-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">剧本模板库</h1>
+            <p class="text-xl text-purple-100 max-w-3xl mx-auto">
+                8 大经典模板，覆盖所有热门题材，选择模板，输入主题，3 分钟生成完整剧本
+            </p>
+        </div>
+    </section>
+
+    <!-- Templates Grid -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Template 1 -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-8">
+                <div class="md:flex">
+                    <div class="md:w-1/3 gradient-bg flex items-center justify-center p-8">
+                        <i class="fas fa-crown text-white text-8xl"></i>
+                    </div>
+                    <div class="md:w-2/3 p-8">
+                        <div class="flex items-center mb-4">
+                            <h2 class="text-2xl font-bold text-gray-900 mr-4">逆袭爽剧模板</h2>
+                            <span class="bg-orange-100 text-orange-600 px-3 py-1 rounded-full text-sm font-medium">最热门</span>
+                        </div>
+                        <p class="text-gray-600 mb-6">被看不起→打脸逆袭，核心爽点明确，适合 25-40 岁观众，单集播放量通常最高。</p>
+                        <div class="grid md:grid-cols-3 gap-4 mb-6">
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">1-3 分钟</div>
+                                <div class="text-sm text-gray-500">时长</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">三幕式</div>
+                                <div class="text-sm text-gray-500">结构</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">30 秒</div>
+                                <div class="text-sm text-gray-500">一反转</div>
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <h3 class="font-bold text-gray-900 mb-2">适用场景：</h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">职场逆袭</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">豪门恩怨</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">身份反转</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">打脸爽剧</span>
+                            </div>
+                        </div>
+                        <a href="register.html" class="inline-block gradient-bg text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition">
+                            <i class="fas fa-magic mr-2"></i>使用此模板
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 2 -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-8">
+                <div class="md:flex">
+                    <div class="md:w-1/3 bg-gradient-to-br from-pink-400 to-red-500 flex items-center justify-center p-8">
+                        <i class="fas fa-heart text-white text-8xl"></i>
+                    </div>
+                    <div class="md:w-2/3 p-8">
+                        <div class="flex items-center mb-4">
+                            <h2 class="text-2xl font-bold text-gray-900 mr-4">甜宠恋爱模板</h2>
+                            <span class="bg-pink-100 text-pink-600 px-3 py-1 rounded-full text-sm font-medium">女性最爱</span>
+                        </div>
+                        <p class="text-gray-600 mb-6">高冷男主独宠女主，相遇→心动→撒糖，甜度爆表，适合 18-35 岁女性观众。</p>
+                        <div class="grid md:grid-cols-3 gap-4 mb-6">
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">1-3 分钟</div>
+                                <div class="text-sm text-gray-500">时长</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">K-Drama</div>
+                                <div class="text-sm text-gray-500">风格</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">高甜</div>
+                                <div class="text-sm text-gray-500">含糖量</div>
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <h3 class="font-bold text-gray-900 mb-2">适用场景：</h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">总裁爱上我</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">先婚后爱</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">青梅竹马</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">契约恋爱</span>
+                            </div>
+                        </div>
+                        <a href="register.html" class="inline-block bg-gradient-to-br from-pink-400 to-red-500 text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition">
+                            <i class="fas fa-magic mr-2"></i>使用此模板
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 3 -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-8">
+                <div class="md:flex">
+                    <div class="md:w-1/3 bg-gradient-to-br from-blue-600 to-purple-700 flex items-center justify-center p-8">
+                        <i class="fas fa-sync-alt text-white text-8xl"></i>
+                    </div>
+                    <div class="md:w-2/3 p-8">
+                        <div class="flex items-center mb-4">
+                            <h2 class="text-2xl font-bold text-gray-900 mr-4">重生复仇模板</h2>
+                            <span class="bg-blue-100 text-blue-600 px-3 py-1 rounded-full text-sm font-medium">大女主必备</span>
+                        </div>
+                        <p class="text-gray-600 mb-6">前世被背叛，重生后逆袭复仇，双重爽点叠加，女性观众最爱题材之一。</p>
+                        <div class="grid md:grid-cols-3 gap-4 mb-6">
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">1-3 分钟</div>
+                                <div class="text-sm text-gray-500">时长</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">双时间线</div>
+                                <div class="text-sm text-gray-500">叙事</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">复仇</div>
+                                <div class="text-sm text-gray-500">主题</div>
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <h3 class="font-bold text-gray-900 mb-2">适用场景：</h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">古代重生</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">现代复仇</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">豪门恩怨</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">逆袭打脸</span>
+                            </div>
+                        </div>
+                        <a href="register.html" class="inline-block bg-gradient-to-br from-blue-600 to-purple-700 text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition">
+                            <i class="fas fa-magic mr-2"></i>使用此模板
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 4 -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-8">
+                <div class="md:flex">
+                    <div class="md:w-1/3 bg-gradient-to-br from-green-500 to-teal-600 flex items-center justify-center p-8">
+                        <i class="fas fa-search text-white text-8xl"></i>
+                    </div>
+                    <div class="md:w-2/3 p-8">
+                        <div class="flex items-center mb-4">
+                            <h2 class="text-2xl font-bold text-gray-900 mr-4">悬疑推理模板</h2>
+                            <span class="bg-green-100 text-green-600 px-3 py-1 rounded-full text-sm font-medium">烧脑首选</span>
+                        </div>
+                        <p class="text-gray-600 mb-6">多重反转，意料之外的真凶，适合喜欢烧脑剧情的观众，完播率极高。</p>
+                        <div class="grid md:grid-cols-3 gap-4 mb-6">
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">1-3 分钟</div>
+                                <div class="text-sm text-gray-500">时长</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">3+ 反转</div>
+                                <div class="text-sm text-gray-500">剧情</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">冷色调</div>
+                                <div class="text-sm text-gray-500">风格</div>
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <h3 class="font-bold text-gray-900 mb-2">适用场景：</h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">犯罪悬疑</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">推理探案</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">心理惊悚</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">密室逃脱</span>
+                            </div>
+                        </div>
+                        <a href="register.html" class="inline-block bg-gradient-to-br from-green-500 to-teal-600 text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition">
+                            <i class="fas fa-magic mr-2"></i>使用此模板
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 5 -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-8">
+                <div class="md:flex">
+                    <div class="md:w-1/3 bg-gradient-to-br from-yellow-400 to-orange-500 flex items-center justify-center p-8">
+                        <i class="fas fa-laugh text-white text-8xl"></i>
+                    </div>
+                    <div class="md:w-2/3 p-8">
+                        <div class="flex items-center mb-4">
+                            <h2 class="text-2xl font-bold text-gray-900 mr-4">喜剧搞笑模板</h2>
+                            <span class="bg-yellow-100 text-yellow-600 px-3 py-1 rounded-full text-sm font-medium">解压神器</span>
+                        </div>
+                        <p class="text-gray-600 mb-6">反差、误会、神转折，让人捧腹大笑，适合全年龄段，传播性极强。</p>
+                        <div class="grid md:grid-cols-3 gap-4 mb-6">
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">1-3 分钟</div>
+                                <div class="text-sm text-gray-500">时长</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">神反转</div>
+                                <div class="text-sm text-gray-500">特色</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">高传播</div>
+                                <div class="text-sm text-gray-500">属性</div>
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <h3 class="font-bold text-gray-900 mb-2">适用场景：</h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">日常搞笑</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">职场喜剧</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">家庭幽默</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">谐音梗</span>
+                            </div>
+                        </div>
+                        <a href="register.html" class="inline-block bg-gradient-to-br from-yellow-400 to-orange-500 text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition">
+                            <i class="fas fa-magic mr-2"></i>使用此模板
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 6 -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-8">
+                <div class="md:flex">
+                    <div class="md:w-1/3 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center p-8">
+                        <i class="fas fa-chart-line text-white text-8xl"></i>
+                    </div>
+                    <div class="md:w-2/3 p-8">
+                        <div class="flex items-center mb-4">
+                            <h2 class="text-2xl font-bold text-gray-900 mr-4">励志成长模板</h2>
+                            <span class="bg-indigo-100 text-indigo-600 px-3 py-1 rounded-full text-sm font-medium">正能量</span>
+                        </div>
+                        <p class="text-gray-600 mb-6">从低谷到巅峰，真实感人，引发共鸣，适合奋斗青年，收藏率高。</p>
+                        <div class="grid md:grid-cols-3 gap-4 mb-6">
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">1-3 分钟</div>
+                                <div class="text-sm text-gray-500">时长</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">情绪曲线</div>
+                                <div class="text-sm text-gray-500">设计</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">金句</div>
+                                <div class="text-sm text-gray-500">结尾</div>
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <h3 class="font-bold text-gray-900 mb-2">适用场景：</h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">创业奋斗</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">职场成长</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">逆袭人生</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">梦想追逐</span>
+                            </div>
+                        </div>
+                        <a href="register.html" class="inline-block bg-gradient-to-br from-indigo-500 to-purple-600 text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition">
+                            <i class="fas fa-magic mr-2"></i>使用此模板
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 7 -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-8">
+                <div class="md:flex">
+                    <div class="md:w-1/3 bg-gradient-to-br from-red-600 to-pink-700 flex items-center justify-center p-8">
+                        <i class="fas fa-dragon text-white text-8xl"></i>
+                    </div>
+                    <div class="md:w-2/3 p-8">
+                        <div class="flex items-center mb-4">
+                            <h2 class="text-2xl font-bold text-gray-900 mr-4">古装穿越模板</h2>
+                            <span class="bg-red-100 text-red-600 px-3 py-1 rounded-full text-sm font-medium">经典题材</span>
+                        </div>
+                        <p class="text-gray-600 mb-6">现代人穿越古代，利用现代知识逆袭，古今碰撞，笑点与爽点并存。</p>
+                        <div class="grid md:grid-cols-3 gap-4 mb-6">
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">1-3 分钟</div>
+                                <div class="text-sm text-gray-500">时长</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">古今对比</div>
+                                <div class="text-sm text-gray-500">特色</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">服化道</div>
+                                <div class="text-sm text-gray-500">要求</div>
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <h3 class="font-bold text-gray-900 mb-2">适用场景：</h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">穿越古代</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">宫斗宅斗</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">武侠江湖</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">仙侠奇幻</span>
+                            </div>
+                        </div>
+                        <a href="register.html" class="inline-block bg-gradient-to-br from-red-600 to-pink-700 text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition">
+                            <i class="fas fa-magic mr-2"></i>使用此模板
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Template 8 -->
+            <div class="bg-white rounded-2xl shadow-lg overflow-hidden mb-8">
+                <div class="md:flex">
+                    <div class="md:w-1/3 bg-gradient-to-br from-purple-500 to-indigo-600 flex items-center justify-center p-8">
+                        <i class="fas fa-bolt text-white text-8xl"></i>
+                    </div>
+                    <div class="md:w-2/3 p-8">
+                        <div class="flex items-center mb-4">
+                            <h2 class="text-2xl font-bold text-gray-900 mr-4">都市异能模板</h2>
+                            <span class="bg-purple-100 text-purple-600 px-3 py-1 rounded-full text-sm font-medium">奇幻热门</span>
+                        </div>
+                        <p class="text-gray-600 mb-6">普通人觉醒超能力，都市背景 + 奇幻元素，视觉冲击强，年轻观众最爱。</p>
+                        <div class="grid md:grid-cols-3 gap-4 mb-6">
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">1-3 分钟</div>
+                                <div class="text-sm text-gray-500">时长</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">超能力</div>
+                                <div class="text-sm text-gray-500">设定</div>
+                            </div>
+                            <div class="text-center p-4 bg-gray-50 rounded-lg">
+                                <div class="text-2xl font-bold text-purple-600">特效</div>
+                                <div class="text-sm text-gray-500">亮点</div>
+                            </div>
+                        </div>
+                        <div class="mb-6">
+                            <h3 class="font-bold text-gray-900 mb-2">适用场景：</h3>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">异能觉醒</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">超能战斗</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">都市传说</span>
+                                <span class="bg-gray-100 text-gray-700 px-3 py-1 rounded-full text-sm">系统流</span>
+                            </div>
+                        </div>
+                        <a href="register.html" class="inline-block bg-gradient-to-br from-purple-500 to-indigo-600 text-white px-6 py-3 rounded-lg font-medium hover:opacity-90 transition">
+                            <i class="fas fa-magic mr-2"></i>使用此模板
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="gradient-bg py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-white mb-6">还没找到合适的模板？</h2>
+            <p class="text-xl text-purple-100 mb-8">
+                告诉我们你的创意，AI 帮你定制专属剧本模板！
+            </p>
+            <a href="register.html" class="inline-block bg-white text-purple-600 px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition shadow-lg">
+                <i class="fas fa-lightbulb mr-2"></i>开始创作
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-gray-400">&copy; 2026 AI 短剧平台 aiduanju.com 版权所有</p>
+        </div>
+    </footer>
+</body>
+</html>

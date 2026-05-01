@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>价格方案 - AI 短剧</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .gradient-bg {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .check-icon {
+            color: #10b981;
+        }
+        .cross-icon {
+            color: #9ca3af;
+        }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg fixed w-full top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-16">
+                <div class="flex items-center">
+                    <a href="index.html" class="flex items-center">
+                        <h1 class="text-2xl font-bold gradient-bg text-transparent bg-clip-text">
+                            <i class="fas fa-film mr-2"></i>AI 短剧
+                        </h1>
+                    </a>
+                    <div class="hidden md:block ml-10">
+                        <div class="flex items-baseline space-x-4">
+                            <a href="index.html#home" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">首页</a>
+                            <a href="index.html#features" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">功能</a>
+                            <a href="templates.html" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">剧本模板</a>
+                            <a href="#" class="text-purple-600 px-3 py-2 rounded-md text-sm font-medium">价格</a>
+                            <a href="index.html#cases" class="text-gray-700 hover:text-purple-600 px-3 py-2 rounded-md text-sm font-medium">案例</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-4">
+                    <a href="login.html" class="text-gray-700 hover:text-purple-600 text-sm font-medium">登录</a>
+                    <a href="register.html" class="gradient-bg text-white px-4 py-2 rounded-full text-sm font-medium hover:opacity-90 transition">免费注册</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Header -->
+    <section class="gradient-bg pt-32 pb-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h1 class="text-4xl md:text-5xl font-bold text-white mb-6">灵活的价格方案</h1>
+            <p class="text-xl text-purple-100 max-w-3xl mx-auto">
+                免费开始创作，按需升级，收益分成高达 70%
+            </p>
+        </div>
+    </section>
+
+    <!-- Pricing Cards -->
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+                <!-- Free Plan -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 border-2 border-gray-200">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">免费版</h3>
+                        <p class="text-gray-600 mb-4">适合新手体验</p>
+                        <div class="text-5xl font-bold text-gray-900 mb-2">¥0</div>
+                        <div class="text-gray-500">永久免费</div>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700">每月 5 次 AI 剧本生成</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700">基础剧本模板 (3 个)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700">720P 视频导出</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700">平台发布权限</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700">基础数据看板</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-times cross-icon mr-3 mt-1"></i>
+                            <span class="text-gray-400">AI 角色生成</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-times cross-icon mr-3 mt-1"></i>
+                            <span class="text-gray-400">高级配音配乐</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-times cross-icon mr-3 mt-1"></i>
+                            <span class="text-gray-400">优先审核</span>
+                        </li>
+                    </ul>
+                    <a href="register.html" class="block text-center border-2 border-purple-600 text-purple-600 py-3 rounded-lg font-medium hover:bg-purple-600 hover:text-white transition">
+                        免费注册
+                    </a>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="bg-gradient-to-b from-purple-50 to-white rounded-2xl shadow-xl p-8 border-2 border-purple-600 relative transform scale-105">
+                    <div class="absolute -top-4 left-1/2 transform -translate-x-1/2">
+                        <span class="bg-purple-600 text-white px-6 py-2 rounded-full text-sm font-bold shadow-lg">最受欢迎</span>
+                    </div>
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">专业版</h3>
+                        <p class="text-gray-600 mb-4">适合全职创作者</p>
+                        <div class="text-5xl font-bold text-gray-900 mb-2">¥99</div>
+                        <div class="text-gray-500">每月 / 或 ¥999/年 (省¥189)</div>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700 font-medium">无限 AI 剧本生成</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700 font-medium">全部剧本模板 (8 个)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700 font-medium">1080P 视频导出</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700 font-medium">AI 角色生成 (50 次/月)</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700 font-medium">高级配音配乐</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700 font-medium">优先审核发布</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700 font-medium">高级数据看板</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700 font-medium">70% 收益分成</span>
+                        </li>
+                    </ul>
+                    <a href="register.html" class="block text-center gradient-bg text-white py-4 rounded-lg font-bold hover:opacity-90 transition shadow-lg">
+                        立即升级
+                    </a>
+                    <p class="text-center text-sm text-gray-500 mt-4">
+                        <i class="fas fa-undo mr-1"></i> 7 天无理由退款
+                    </p>
+                </div>
+
+                <!-- Enterprise Plan -->
+                <div class="bg-white rounded-2xl shadow-lg p-8 border-2 border-gray-200">
+                    <div class="text-center mb-8">
+                        <h3 class="text-2xl font-bold text-gray-900 mb-2">企业版</h3>
+                        <p class="text-gray-600 mb-4">适合 MCN 机构</p>
+                        <div class="text-5xl font-bold text-gray-900 mb-2">¥999</div>
+                        <div class="text-gray-500">每月 / 定制报价</div>
+                    </div>
+                    <ul class="space-y-4 mb-8">
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700">专业版全部功能</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700">无限 AI 角色生成</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700">批量生成工具</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700">API 接入</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700">专属客户经理</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700">定制培训</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700">SLA 服务保障</span>
+                        </li>
+                        <li class="flex items-start">
+                            <i class="fas fa-check check-icon mr-3 mt-1"></i>
+                            <span class="text-gray-700">优先新功能体验</span>
+                        </li>
+                    </ul>
+                    <a href="register.html" class="block text-center border-2 border-purple-600 text-purple-600 py-3 rounded-lg font-medium hover:bg-purple-600 hover:text-white transition">
+                        联系销售
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Revenue Share -->
+    <section class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">收益分成规则</h2>
+                <p class="text-xl text-gray-600">行业内最高分成比例，让创作者获得最大收益</p>
+            </div>
+            <div class="max-w-4xl mx-auto">
+                <div class="bg-gray-50 rounded-2xl p-8 mb-8">
+                    <table class="w-full">
+                        <thead>
+                            <tr class="border-b-2 border-gray-200">
+                                <th class="text-left py-4 px-6 font-bold text-gray-900">收入来源</th>
+                                <th class="text-center py-4 px-6 font-bold text-purple-600">创作者</th>
+                                <th class="text-center py-4 px-6 font-bold text-gray-600">平台</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr class="border-b border-gray-200">
+                                <td class="py-4 px-6 text-gray-700">会员观看</td>
+                                <td class="text-center py-4 px-6 text-2xl font-bold text-green-600">70%</td>
+                                <td class="text-center py-4 px-6 text-gray-600">30%</td>
+                            </tr>
+                            <tr class="border-b border-gray-200">
+                                <td class="py-4 px-6 text-gray-700">单集付费</td>
+                                <td class="text-center py-4 px-6 text-2xl font-bold text-green-600">70%</td>
+                                <td class="text-center py-4 px-6 text-gray-600">30%</td>
+                            </tr>
+                            <tr class="border-b border-gray-200">
+                                <td class="py-4 px-6 text-gray-700">广告收入</td>
+                                <td class="text-center py-4 px-6 text-2xl font-bold text-green-600">60%</td>
+                                <td class="text-center py-4 px-6 text-gray-600">40%</td>
+                            </tr>
+                            <tr class="border-b border-gray-200">
+                                <td class="py-4 px-6 text-gray-700">打赏收入</td>
+                                <td class="text-center py-4 px-6 text-2xl font-bold text-green-600">80%</td>
+                                <td class="text-center py-4 px-6 text-gray-600">20%</td>
+                            </tr>
+                            <tr>
+                                <td class="py-4 px-6 text-gray-700">版权售卖</td>
+                                <td class="text-center py-4 px-6 text-2xl font-bold text-green-600">50%</td>
+                                <td class="text-center py-4 px-6 text-gray-600">50%</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Bonus Programs -->
+    <section class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">激励政策</h2>
+                <p class="text-xl text-gray-600">多重奖励，助力创作者成长</p>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Bonus 1 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg text-center">
+                    <div class="w-16 h-16 gradient-bg rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-rocket text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">新人奖</h3>
+                    <p class="text-sm text-gray-600 mb-3">首部作品播放&gt;10 万</p>
+                    <div class="text-3xl font-bold text-purple-600">¥1000</div>
+                </div>
+
+                <!-- Bonus 2 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-orange-400 to-red-500 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-fire text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">爆款奖</h3>
+                    <p class="text-sm text-gray-600 mb-3">单部作品播放&gt;100 万</p>
+                    <div class="text-3xl font-bold text-purple-600">¥10000</div>
+                </div>
+
+                <!-- Bonus 3 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-blue-600 to-purple-700 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-trophy text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">月榜奖</h3>
+                    <p class="text-sm text-gray-600 mb-3">月度播放 Top10</p>
+                    <div class="text-3xl font-bold text-purple-600">¥5000-50000</div>
+                </div>
+
+                <!-- Bonus 4 -->
+                <div class="bg-white rounded-xl p-6 shadow-lg text-center">
+                    <div class="w-16 h-16 bg-gradient-to-br from-green-500 to-teal-600 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i class="fas fa-star text-white text-2xl"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">质量奖</h3>
+                    <p class="text-sm text-gray-600 mb-3">评分&gt;4.8 分</p>
+                    <div class="text-3xl font-bold text-purple-600">¥2000</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="py-16 bg-white">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">常见问题</h2>
+            </div>
+            <div class="space-y-6">
+                <!-- FAQ 1 -->
+                <div class="border-b border-gray-200 pb-6">
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">
+                        <i class="fas fa-question-circle text-purple-600 mr-2"></i>
+                        如何提现收益？
+                    </h3>
+                    <p class="text-gray-600 ml-6">
+                        满¥100 即可申请提现，支持支付宝、微信、银行卡。提现申请后 3-5 个工作日到账，平台代扣个人所得税。
+                    </p>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="border-b border-gray-200 pb-6">
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">
+                        <i class="fas fa-question-circle text-purple-600 mr-2"></i>
+                        专业版可以退款吗？
+                    </h3>
+                    <p class="text-gray-600 ml-6">
+                        可以的！购买专业版后 7 天内，如不满意可无条件全额退款。我们相信你会爱上 AI 短剧的创作体验。
+                    </p>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="border-b border-gray-200 pb-6">
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">
+                        <i class="fas fa-question-circle text-purple-600 mr-2"></i>
+                        企业版可以定制价格吗？
+                    </h3>
+                    <p class="text-gray-600 ml-6">
+                        可以！根据团队规模、使用量、定制需求，我们会提供个性化报价。联系销售获取专属方案。
+                    </p>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="border-b border-gray-200 pb-6">
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">
+                        <i class="fas fa-question-circle text-purple-600 mr-2"></i>
+                        AI 生成的剧本版权归谁？
+                    </h3>
+                    <p class="text-gray-600 ml-6">
+                        版权归创作者所有！平台仅提供工具和技术支持，不参与版权分成（除非通过平台进行版权售卖）。
+                    </p>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div>
+                    <h3 class="text-lg font-bold text-gray-900 mb-2">
+                        <i class="fas fa-question-circle text-purple-600 mr-2"></i>
+                        可以升级或降级套餐吗？
+                    </h3>
+                    <p class="text-gray-600 ml-6">
+                        随时可以！升级立即生效，按剩余天数补差价；降级次月生效，剩余天数不退款。
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="gradient-bg py-16">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-3xl font-bold text-white mb-6">准备好开始创作了吗？</h2>
+            <p class="text-xl text-purple-100 mb-8">
+                立即注册，免费体验 AI 短剧创作，
+                <br/>
+                前 1000 名注册用户送¥100 创作基金！
+            </p>
+            <a href="register.html" class="inline-block bg-white text-purple-600 px-8 py-4 rounded-full text-lg font-bold hover:bg-gray-100 transition shadow-lg">
+                <i class="fas fa-rocket mr-2"></i>免费注册
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 text-white py-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <p class="text-gray-400">&copy; 2026 AI 短剧平台 aiduanju.com 版权所有</p>
+        </div>
+    </footer>
+</body>
+</html>
